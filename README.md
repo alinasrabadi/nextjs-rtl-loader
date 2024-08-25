@@ -1,4 +1,9 @@
+
 <h1>NextJs RTL Loader</h1>
+
+https://github.com/user-attachments/assets/567058b8-fe78-4cb0-b4b3-82d61b1c4263
+
+
 <br>
 
 > NextJs RTL Loader is a sleek, customizable top-loading progress bar for Next.js and React applications, designed with built-in RTL support.
