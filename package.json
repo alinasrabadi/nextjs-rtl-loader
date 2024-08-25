@@ -1,0 +1,78 @@
+{
+  "name": "nextjs-rtl-loader",
+  "version": "1.1.0",
+  "description": "NextJs RTL Loader is a sleek, customizable top-loading progress bar for Next.js and React applications, designed with built-in RTL support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "nextjs",
+    "react-component",
+    "react-ui",
+    "ui-components",
+    "rtl-support",
+    "rtl-loader",
+    "rtl-progress-bar",
+    "rtl-loading-bar",
+    "rtl-top-loader",
+    "rtl-react-progress-bar",
+    "front-end",
+    "web-performance",
+    "website-interactivity",
+    "single-page-application",
+    "asynchronous-loading",
+    "page-load",
+    "loading-indicator",
+    "loading-bar",
+    "top-loader",
+    "progress-bar",
+    "react-progress-bar",
+    "nprogress",
+    "react-loader",
+    "user-interface"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "lint:fix": "eslint --ignore-path .eslintignore --fix --ext .js,.ts . && npm run format:fix",
+    "format:fix": "prettier --ignore-path .gitignore --write \"src/**/*.{ts,tsx}\""
+  },
+  "files": [
+    "dist/**/*.js*",
+    "dist/**/*.mjs*",
+    "dist/**/*.d*"
+  ],
+  "bugs": {
+    "url": "https://github.com/alinasrabadi/nextjs-rtl-loader/issues"
+  },
+  "homepage": "https://github.com/alinasrabadi/nextjs-rtl-loader#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alinasrabadi/nextjs-rtl-loader.git"
+  },
+  "author": {
+    "name": "Ali Nasrabadi",
+    "email": "ali.nasrabadi1996@gmail.com",
+    "url": "https://github.com/alinasrabadi"
+  },
+  "peerDependencies": {
+    "react": ">= 16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^42.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.4.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "react": "^18.2.0",
+    "prettier": "^3.1.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
